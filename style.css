@@ -1,0 +1,27 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  .container{
+    margin: 40px;
+    border:  2px solid red;
+    display:grid ;
+    grid-template-columns: repeat(4,ftr);
+    justify-content: center;
+     grid-auto-rows: 100px; 
+    gap: 20px;
+  }
+  .box{
+    border: 2px solid rgb(8, 0, 255);
+    background-color: rgb(178, 176, 255);
+    padding: 10px;
+    
+  }
+  #box-1{
+    /* grid-column-start: 1; 
+    grid-column-end: 4;*/
+    grid-column: 1/;
+   
+  }
